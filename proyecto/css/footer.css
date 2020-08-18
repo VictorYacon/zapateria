@@ -1,0 +1,70 @@
+
+
+footer{
+
+    background:#24282b ;
+    padding: 60px 0 30px 0;
+    margin: auto;
+}
+
+.footer-general{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ccc;
+}
+
+.redes-sociales,.informacion {
+margin: auto;
+}
+.redes-sociales, .informacion p{
+    color: #ccc;
+    
+}
+
+
+#autor{
+    text-align: center;
+    font-size: 15px;
+    margin: 20px 0 0 0;
+    color: #9e9797;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 800px){
+    .seccion2, .hover{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .seccion3{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 800px){
+    main{
+        width: 100%;
+    }
+}
